@@ -1,0 +1,70 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    padding: 20px;
+    margin: 0;
+}
+
+h1{
+    text-align: center;
+    color: black;
+
+}
+ 
+form{
+    max-width: 600px;
+    margin: 0;
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px; 
+}
+
+form fieldset{
+    border: 1px rgb(0, 0, 0);
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+form label{
+    display: block;
+    margin-bottom: 8px;
+    color:azure
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form input[type="number"],
+form input[type="date"],
+form input[type="url"],
+form select,
+form textarea{
+    width: calc(100px - 20px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px snow;
+    border-radius: 5px;
+}
+
+form input[type="radio"],
+form input[type="checkbox"]{
+    margin-right: 10px;
+}
+
+form button{
+    background-color: rgb(141, 134, 134);
+    color: aliceblue;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+
+}
+
+form button:hover{
+    background-color: blueviolet;
+
+}
